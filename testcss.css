@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Gabarito&family=Kanit:wght@300;400&family=Krona+One&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+
+:root {
+  /*id="dilioneJunior"*/
+  --cor-primaria-nobre: rgb(210, 15, 210);
+  --cor-secundaria-nobre: rgb(2, 212, 212);
+  --cor-terciaria-nobre: rgb(0, 0, 0);
+  --cor-hover: rgb(71, 68, 71);
+  --fonte-nobre-primaria: 'Alumni Sans Collegiate One', sans-serif;
+  --fonte-nobre-secundaria: 'Bruno Ace', sans-serif;
+
+  --fonte-nunito: 'Nunito Sans', sans-serif;
+
+  /*Fernando Mauricio*/
+  --cor-primaria-fernandoMauricio: #191970;
+  --cor-secundaria-fernandoMauricio: #66cdaa;
+  --cor-terciaria-fernandoMauricio: #ffffe0;
+  --cor-quartenaria-fernandoMauricio: #32cd32;
+  --font-principal-fernandoMauricio: 'Inter', sans-serif;
+
+}
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #ff16c7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid black
+  }
+  
+  nav {
+    display: flex;
+    gap: 40px;
+    font-family: var(--fonte-nunito);
+  }
+  
+  .logo-principal {
+    width: 200px;
+  }
+  
+  .link-menu {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main__cartoes {
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .cartao {
+    width: 600px;
+    height: 400px;
+  }
+  
+  .titulo-milenaEmmert {
+    color: #9C3C8D;
+  }
